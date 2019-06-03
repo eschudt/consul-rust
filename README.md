@@ -1,7 +1,7 @@
 ## consul-rust
 
 [![Build Status](https://travis-ci.org/stusmall/consul-rust.svg)](https://travis-ci.org/stusmall/consul-rust.svg)
-[![](https://img.shields.io/crates/v/consul.svg)](https://crates.io/crates/consul)
+[![](https://img.shields.io/crates/v/consul.svg)](https://crates.io/crates/eschudt_consul)
 
 See the documentation [here](https://docs.rs/consul/).
 
@@ -31,5 +31,5 @@ Simply include consul-rust in your Cargo dependencies.
 
 ```toml
 [dependencies]
-consul = "0.1"
+eschudt_consul = "0.1"
 ```

@@ -2,13 +2,13 @@
 //!
 //! # Usage
 //!
-//! This crate is [on crates.io](https://crates.io/crates/consul) and
-//! can be used by adding `consul` to the dependencies in your
+//! This crate is [on crates.io](https://crates.io/crates/eschudt_consul) and
+//! can be used by adding `eschudt_consul` to the dependencies in your
 //! project's `Cargo.toml`.
 //!
 //! ```toml
 //! [dependencies]
-//! consul = "*"
+//! eschudt_consul = "*"
 //! ```
 //!
 //! and this to your crate root:
@@ -19,7 +19,7 @@
 //! # Examples
 //! ```rust
 //! use std::collections::HashMap;
-//! use consul::{Client, Service};
+//! use eschudt_consul::{Client, Service};
 //!
 //! let client = Client::new("http://127.0.0.1:8500");
 //! let services: HashMap<String, Service> = client.agent.services().unwrap();
@@ -27,7 +27,7 @@
 //! ```
 //!
 
-#![crate_name = "consul"]
+#![crate_name = "eschudt_consul"]
 #![crate_type = "lib"]
 
 #[macro_use]
