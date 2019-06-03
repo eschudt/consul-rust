@@ -1,11 +1,10 @@
 [package]
 
 name = "consul"
-version = "0.2.0"
-authors = ["Andrew Useckas <andrew.useckas@threat-x.com>", "Stu Small <stuart.small@threat-x.com>", "YoungKing <yanckin@gmail.com>"]
+version = "0.2.1"
+authors = ["Andrew Useckas <andrew.useckas@threat-x.com>", "Stu Small <stuart.small@threat-x.com>", "YoungKing <yanckin@gmail.com>", "Erich Schudt <erich.schudt@live.com>"]
 description = "Rust client libray for Consul HTTP API"
-documentation = "https://docs.rs/consul/"
-repository = "https://github.com/stusmall/consul-rust"
+repository = "https://github.com/eschudt/consul-rust"
 license = "MIT/Apache-2.0"
 
 readme = "README.md"
